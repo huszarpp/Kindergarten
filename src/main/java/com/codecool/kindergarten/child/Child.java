@@ -24,7 +24,7 @@ public abstract class Child {
 
     @Override
     public String toString() {
-        return "Name: " + this.name + " Satisfaction: " + this.satisfaction + " Whining: " + isWhining;
+        return "Name: " + this.name + " Personality: " + this.getClass().getSimpleName() + " Satisfaction: " + this.satisfaction + " Whining: " + isWhining;
     }
 
     public int getSatisfaction() {

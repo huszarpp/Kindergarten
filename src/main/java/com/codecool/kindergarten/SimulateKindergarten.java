@@ -26,10 +26,14 @@ public class SimulateKindergarten {
         Child child1 = new LivelyChild("John");
         Child child2 = new MusicLoverChild("Jenny");
         Child child3 = new CalmChild("Diana");
+        Child child4 = new LivelyChild("George");
+        Child child5 = new LivelyChild("Hanna");
 
         yellowKindergarten.addChild(child1);
         yellowKindergarten.addChild(child2);
         yellowKindergarten.addChild(child3);
+        yellowKindergarten.addChild(child4);
+        yellowKindergarten.addChild(child5);
 
         for (Activities activity : todayActivities) {
             System.out.println("Next activity: " + activity);
