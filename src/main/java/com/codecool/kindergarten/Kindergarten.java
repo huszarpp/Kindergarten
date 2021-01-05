@@ -30,6 +30,10 @@ public class Kindergarten {
         }
     }
 
+    public boolean isChaos() {
+        return isChaos;
+    }
+
     public boolean wasChaos() {
         return wasChaos;
     }

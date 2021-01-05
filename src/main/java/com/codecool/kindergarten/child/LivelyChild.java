@@ -2,6 +2,10 @@ package com.codecool.kindergarten.child;
 
 public class LivelyChild extends Child {
 
+    public LivelyChild(String name) {
+        super(name);
+    }
+
     @Override
     void changeSatisfaction(Activities activity) {
         switch (activity) {
