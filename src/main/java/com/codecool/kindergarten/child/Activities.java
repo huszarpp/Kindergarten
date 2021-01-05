@@ -1,6 +1,6 @@
 package com.codecool.kindergarten.child;
 
-enum Activities {
+public enum Activities {
 
     SINGING,
     PLAYING_BALL,

@@ -5,10 +5,15 @@ public abstract class Child {
     private int satisfaction = 2;
     private boolean isWhining = false;
 
-    public abstract void changeSatisfaction(Activities activity);
+    abstract void changeSatisfaction(Activities activity);
 
-    public void changeWhining() {
-        isWhining = (satisfaction == 0);
+    private void changeWhining() {
+        setWhining(satisfaction == 0);
+    }
+
+    public final void playFor30Minutes(Activities activity) {
+        changeSatisfaction(activity);
+        changeWhining();
     }
 
     public int getSatisfaction() {
